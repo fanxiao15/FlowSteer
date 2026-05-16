@@ -105,3 +105,8 @@ This step evaluates the FLOWGUARD defense results reported in Table 3.
 ```bash
 python eval_defense.py --time_step 3 --dataset 'MisinfoTask or ASB'
 ```
+
+You can also use the following code to calculate TASR and MASR.
+```bash
+python results_judge.py  --save_path [SAVE_PATH] --log_root_path [LOG_ROOT_PATH]
+```

@@ -83,8 +83,7 @@ Please assign a score $S \in [0, 1]$ based on the following rubric:
     try:
         response = langauage_reasoning(prompt)
         response_json = json.loads(extract_json_string(response))
-        print(response_json)
-        
+        print(response_json) 
     except Exception as e:
         print(f"LLM call failed: {e}")
     
